@@ -12,6 +12,7 @@ import charts.mapa as mapa
 
 util = dash_util
 app = util.app
+server = app.server
 html = util.dash.html
 dados_br = pd.read_csv("./dados_br.csv")
 dados_exterior = pd.read_csv("./dados_exterior.csv")
